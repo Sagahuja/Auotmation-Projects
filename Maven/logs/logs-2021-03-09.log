@@ -1,0 +1,8 @@
+21:57:08.852 [main] INFO  utilities.BaseClass - testTitle is Passed
+21:57:24.865 [main] INFO  utilities.BaseClass - testLogin is Passed
+21:57:25.330 [main] INFO  utilities.BaseClass - checkLogin is Passed
+23:16:07.827 [main] INFO  utilities.BaseClass - testTitle is Passed
+23:16:25.023 [main] INFO  utilities.BaseClass - testLogin is Passed
+23:16:25.446 [main] INFO  utilities.BaseClass - checkLogin is Passed
+23:22:24.398 [main] INFO  utilities.BaseClass - testTitle is Passed
+23:22:36.706 [main] INFO  utilities.BaseClass - testLogin is Passed
