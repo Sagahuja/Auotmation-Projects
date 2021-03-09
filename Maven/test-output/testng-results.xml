@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-09T21:52:33 IST" name="Suite" finished-at="2021-03-09T21:53:11 IST" duration-ms="37649">
+    <groups>
+    </groups>
+    <test started-at="2021-03-09T21:52:33 IST" name="Test" finished-at="2021-03-09T21:53:11 IST" duration-ms="37649">
+      <class name="tests.HomePageTest">
+        <test-method is-config="true" signature="Driver()[pri:0, instance:tests.HomePageTest@5be067de]" started-at="2021-03-09T21:52:33 IST" name="Driver" finished-at="2021-03-09T21:52:46 IST" duration-ms="12453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Driver -->
+        <test-method signature="testTitle()[pri:0, instance:tests.HomePageTest@5be067de]" started-at="2021-03-09T21:52:54 IST" name="testTitle" finished-at="2021-03-09T21:52:54 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method signature="testLogin()[pri:0, instance:tests.HomePageTest@5be067de]" started-at="2021-03-09T21:52:54 IST" name="testLogin" finished-at="2021-03-09T21:53:10 IST" depends-on-methods="tests.HomePageTest.testTitle" duration-ms="15849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.LoginPageTest">
+        <test-method is-config="true" signature="Driver()[pri:0, instance:tests.LoginPageTest@7383eae2]" started-at="2021-03-09T21:52:46 IST" name="Driver" finished-at="2021-03-09T21:52:54 IST" duration-ms="8092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Driver -->
+        <test-method signature="checkLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginPageTest@7383eae2]" started-at="2021-03-09T21:53:10 IST" name="checkLogin" data-provider="getTestDate" finished-at="2021-03-09T21:53:10 IST" duration-ms="324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestEmail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLogin -->
+        <test-method is-config="true" signature="closeBrowsesr()[pri:0, instance:tests.LoginPageTest@7383eae2]" started-at="2021-03-09T21:53:10 IST" name="closeBrowsesr" finished-at="2021-03-09T21:53:11 IST" duration-ms="774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsesr -->
+      </class> <!-- tests.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
