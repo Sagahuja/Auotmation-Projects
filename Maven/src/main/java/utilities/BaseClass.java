@@ -26,13 +26,12 @@ public class BaseClass {
 	public static Logger logs = LogManager.getLogger(BaseClass.class.getName());
 	public WebDriver inilizeDriver() throws IOException {
 
-		System.setProperty("webdriver.chrome.driver", "D:\\Downloads\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"src\\main\\java\\tools\\chromedriver.exe");
 		System.out.println("test");
 		 driver = new ChromeDriver();
 		 driver.manage().window().maximize();
 		prop = new Properties();
-		FileInputStream fis = new FileInputStream(
-				"C:\\Users\\think\\eclipse-workspace\\Maven\\resources\\Data.properties");
+		FileInputStream fis = new FileInputStream(System.getProperty("user.dir") +"\\Maven\\resources\\Data.properties");
 		prop.load(fis);
 		return driver;
 	}

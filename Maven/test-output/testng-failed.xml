@@ -13,6 +13,13 @@
           <include name="Driver"/>
         </methods>
       </class> <!-- tests.HomePageTest -->
+      <class name="tests.LoginPageTest">
+        <methods>
+          <include name="checkLogin"/>
+          <include name="Driver"/>
+          <include name="closeBrowsesr"/>
+        </methods>
+      </class> <!-- tests.LoginPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
