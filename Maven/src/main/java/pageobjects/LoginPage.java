@@ -28,6 +28,10 @@ public class LoginPage {
 	{
 		return driver.findElement(loginButton);
 	}
-	
+	By checkMsg=By.cssSelector("[role*='alert']");
+	public WebElement getcheckMsg()
+	{
+		return driver.findElement(checkMsg);
+	}
 	
 }

@@ -2,6 +2,7 @@ package tests;
 
 import java.io.IOException;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -11,7 +12,7 @@ import pageobjects.HomePage;
 import utilities.BaseClass;
 
 public class HomePageTest extends BaseClass {
-
+	WebDriver driver;
 	@BeforeTest
 	public void Driver() throws IOException
 	{
