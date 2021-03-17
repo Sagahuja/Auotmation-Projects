@@ -37,5 +37,9 @@ public class HomePageTest extends BaseClass {
 		home.getLogin().click();
 		
 	}
+	@AfterTest
+	public void closeBrowsesr() {
+		driver.quit();
+	}
 	
 }

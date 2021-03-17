@@ -18,16 +18,19 @@ public class LoginPage {
 	{
 		return driver.findElement(email);
 	}
+	
 	By password=By.cssSelector("#user_password");
 	public WebElement getPassword()
 	{
 		return driver.findElement(password);
 	}
+	
 	By loginButton= By.cssSelector("input[type='submit']");
 	public WebElement getLoginButton()
 	{
 		return driver.findElement(loginButton);
 	}
+	
 	By checkMsg=By.cssSelector("[role*='alert']");
 	public WebElement getcheckMsg()
 	{

@@ -19,6 +19,8 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentReporter;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 //import Tests.ExcelDataDriven;
 
 public class BaseClass {
@@ -28,13 +30,14 @@ public class BaseClass {
 	public static Logger logs = LogManager.getLogger(BaseClass.class.getName());
 
 	public WebDriver inilizeDriver() throws IOException {
+		WebDriverManager.chromedriver().setup();
 		String browserName = System.getProperty("browser");
 		System.out.println(browserName);
 		ChromeOptions options = new ChromeOptions();
 		if (browserName.contains("chrome")) {
 
-			System.setProperty("webdriver.chrome.driver",
-					System.getProperty("user.dir") + "\\src\\main\\java\\tools\\chromedriver.exe");
+			/*System.setProperty("webdriver.chrome.driver",
+					System.getProperty("user.dir") + "\\src\\main\\java\\tools\\chromedriver.exe");*/
 
 			if (browserName.contains("headless")) {
 				options.addArguments("headless");
