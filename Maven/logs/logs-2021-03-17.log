@@ -1,8 +1,8 @@
-16:16:40.871 [main] INFO  utilities.BaseClass - testLogin is Passed
-16:16:42.150 [main] INFO  utilities.BaseClass - checkLogin is Passed
-16:16:42.511 [main] INFO  utilities.BaseClass - checkWrongAlert is Passed
-17:12:54.416 [main] ERROR tests.ExcelDataDriven - testerror
-17:12:54.423 [main] INFO  tests.ExcelDataDriven - info
-17:12:54.423 [main] DEBUG tests.ExcelDataDriven - debug
-17:12:54.423 [main] FATAL tests.ExcelDataDriven - testfatal
-16:25:35.420 [main] INFO  utilities.BaseClass - testTitle is Passed
+16:25:50.210 [main] INFO  utilities.BaseClass - testLogin is Passed
+16:25:50.522 [main] INFO  utilities.BaseClass - checkLogin is Passed
+16:25:50.603 [main] INFO  utilities.BaseClass - checkWrongAlert is Passed
+16:32:28.871 [main] INFO  utilities.BaseClass - testTitle is Passed
+16:32:41.971 [main] INFO  utilities.BaseClass - testLogin is Passed
+16:32:42.193 [main] INFO  utilities.BaseClass - checkLogin is Passed
+16:32:42.255 [main] INFO  utilities.BaseClass - checkWrongAlert is Passed
+21:16:18.918 [main] INFO  utilities.BaseClass - testTitle is Passed

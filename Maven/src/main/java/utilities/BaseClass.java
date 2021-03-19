@@ -14,6 +14,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentReporter;
@@ -31,6 +32,7 @@ public class BaseClass {
 
 	public WebDriver inilizeDriver() throws IOException {
 		WebDriverManager.chromedriver().setup();
+		//WebDriverManager.iedriver().setup();
 		String browserName = System.getProperty("browser");
 		System.out.println(browserName);
 		ChromeOptions options = new ChromeOptions();
@@ -45,6 +47,7 @@ public class BaseClass {
 			}
 
 			driver = new ChromeDriver(options);
+			//driver= new InternetExplorerDriver();
 			driver.manage().window().maximize();
 		}
 		prop = new Properties();
