@@ -18,7 +18,7 @@ public class BrokenLinks {
 	private static WebDriver driver = null;
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
+       
         
         String homePage = "https://www.zlti.com";
         String url = "";

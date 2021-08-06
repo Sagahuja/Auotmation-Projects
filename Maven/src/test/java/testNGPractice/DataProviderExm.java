@@ -9,7 +9,7 @@ public class DataProviderExm {
 	@Test(dataProvider = "getData")
 	public void sampleTest(String firstName,String lastName)
 	{
-		System.out.println("DataProvider TestNG : "+firstName + " "+lastName);
+		System.out.println("Data Provider TestNG : "+firstName + " "+lastName);
 	}
 	
 	
