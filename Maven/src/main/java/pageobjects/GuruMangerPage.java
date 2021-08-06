@@ -20,4 +20,9 @@ public class GuruMangerPage extends BaseClass {
 	{
 		return driver.findElement(managerLink);
 	}
+	By managerId= By.xpath("//td[contains(text(),'Manger Id :')]");
+	public WebElement getManagerId()
+	{
+		return driver.findElement(managerId);
+	}
 }

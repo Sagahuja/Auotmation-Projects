@@ -1,3 +1,2 @@
-21:16:33.784 [main] INFO  utilities.BaseClass - testLogin is Passed
-21:16:34.095 [main] INFO  utilities.BaseClass - checkLogin is Passed
-21:16:34.177 [main] INFO  utilities.BaseClass - checkWrongAlert is Passed
+10:12:24.645 [main] DEBUG tests.ExcelDataDriven - debug
+10:12:24.650 [main] FATAL tests.ExcelDataDriven - testfatal

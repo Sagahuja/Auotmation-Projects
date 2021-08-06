@@ -12,7 +12,6 @@ public class LoginPage {
 		this.driver=driver;
 	}
 	
-	
 	By email= By.cssSelector("#user_email");
 	public WebElement getEmail()
 	{

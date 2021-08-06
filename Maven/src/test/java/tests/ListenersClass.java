@@ -33,7 +33,7 @@ public class ListenersClass extends BaseClass implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 		
 		try {
-			//Below Statement restun Driver object from the test which is failed
+			//Below Statement return Driver object from the test which is failed
 			driver=(WebDriver) result.getTestClass().getRealClass().getField("driver").get(result.getInstance());
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
@@ -74,6 +74,8 @@ public class ListenersClass extends BaseClass implements ITestListener {
 	@Override
 	public void onFinish(ITestContext context) {
 		er.flush();
+		
+		
 	}
 
 }

@@ -1,10 +1,8 @@
 package utilities;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
-import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -35,6 +33,7 @@ public class ExcelUtility {
 		excelFile = new XSSFWorkbook(fis);
 		sheet = excelFile.getSheet("Sheet1");
 		int rowCount = sheet.getLastRowNum();
+
 		row = sheet.getRow(rowCount);
 
 		int columnCount = row.getLastCellNum();
@@ -51,7 +50,7 @@ public class ExcelUtility {
 		sheet = excelFile.getSheet(sheetName);
 		row = sheet.getRow(rows);
 		cell = row.getCell(columns);
-		
+
 		return cell.getStringCellValue();
 	}
 

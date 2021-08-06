@@ -1,0 +1,7 @@
+10:10:37.703 [main] INFO  utilities.BaseClass - VerifyLoginSection is Passed
+10:10:49.378 [main] INFO  utilities.BaseClass - VerifyLoginSection is Passed
+10:11:00.057 [main] INFO  utilities.BaseClass - VerifyLoginSection is Passed
+22:02:24.693 [main] INFO  utilities.BaseClass - testTitle is Passed
+22:02:37.641 [main] INFO  utilities.BaseClass - testLogin is Passed
+22:02:38.023 [main] INFO  utilities.BaseClass - checkLogin is Passed
+22:02:38.098 [main] INFO  utilities.BaseClass - checkWrongAlert is Passed

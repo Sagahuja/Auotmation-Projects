@@ -18,6 +18,7 @@ public class HomePageTest extends BaseClass {
 	{
 		driver=inilizeDriver();
 		driver.get(prop.getProperty("url"));
+		
 	}
 	
 	@Test

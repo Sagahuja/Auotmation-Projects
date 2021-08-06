@@ -36,6 +36,9 @@ public class BaseClass {
 		String browserName = System.getProperty("browser");
 		System.out.println(browserName);
 		ChromeOptions options = new ChromeOptions();
+		if(browserName == null) {
+			browserName="chrome";
+		}
 		if (browserName.contains("chrome")) {
 
 			/*System.setProperty("webdriver.chrome.driver",
@@ -69,7 +72,7 @@ public class BaseClass {
 		String path = System.getProperty("user.dir") + "\\reports\\report.html";
 		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 		reporter.config().setDocumentTitle("Test Report");
-		reporter.config().setReportName("Yogesh");
+		//reporter.config().setReportName("Yogesh");
 		reporter.config().setReportName("Web Automation Test Report");
 		er = new ExtentReports();
 		er.setSystemInfo("Tester", "Yogesh");

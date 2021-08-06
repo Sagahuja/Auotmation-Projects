@@ -6,20 +6,29 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tests.HomePageTest">
-        <methods>
-          <include name="testLogin"/>
-          <include name="testTitle"/>
-          <include name="Driver"/>
-        </methods>
-      </class> <!-- tests.HomePageTest -->
       <class name="tests.LoginPageTest">
         <methods>
           <include name="checkLogin"/>
           <include name="Driver"/>
           <include name="closeBrowsesr"/>
+          <include name="checkWrongAlert"/>
         </methods>
       </class> <!-- tests.LoginPageTest -->
+      <class name="tests.HomePageTest">
+        <methods>
+          <include name="closeBrowsesr"/>
+          <include name="testLogin"/>
+          <include name="testTitle"/>
+          <include name="Driver"/>
+        </methods>
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.GuruLoginPageTest">
+        <methods>
+          <include name="VerifyLoginSection"/>
+          <include name="closeBrowesr"/>
+          <include name="inilizeBrowser"/>
+        </methods>
+      </class> <!-- tests.GuruLoginPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

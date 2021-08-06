@@ -1,0 +1,7 @@
+18:50:26.872 [main] INFO  utilities.BaseClass - checkWrongAlert is Passed
+18:50:40.528 [main] INFO  utilities.BaseClass - VerifyLoginSection is Passed
+18:50:48.117 [main] INFO  utilities.BaseClass - VerifyLoginSection is Passed
+18:50:56.031 [main] INFO  utilities.BaseClass - VerifyLoginSection is Passed
+18:51:03.446 [main] INFO  utilities.BaseClass - VerifyLoginSection is Passed
+10:12:24.643 [main] ERROR tests.ExcelDataDriven - testerror
+10:12:24.645 [main] INFO  tests.ExcelDataDriven - info
